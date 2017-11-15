@@ -1,0 +1,12 @@
+.skill-txt {
+  padding: 4px 20px;
+  background: #e6e9ec;
+  color: #313131;
+  border-radius: 25px;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  /*border: 2px solid #11abb0;*/
+  display: inline-block;
+  margin-bottom: 5px;
+}

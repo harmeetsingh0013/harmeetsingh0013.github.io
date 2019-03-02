@@ -1,58 +1,43 @@
-.skill-txt {
-padding: 4px 36px;
-    background: #efefef;
-    color: #313131;
-    border-radius: 20px;
-    margin-right: 10px;
-    font-weight: 600;
-    font-size: 16px;
-    /* border: 2px solid #11abb0; */
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+    font-size: 36px;
+    line-height: 42px;
+    color:#fff
+}
+
+#colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+    font-size: 19px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: "Quicksand", Arial, sans-serif;
+    color: #e4e4e4;
+}
+
+.icon-list {
+    text-align: center;
+    margin: 0 0 10px;
+    padding: 4px 0;
+    /* background: #efefef; */
+}
+
+.icon-list li {
+    list-style-type: none;
+    margin: 4px 2px;
     display: inline-block;
-    margin-bottom: 10px;
 }
 
+.icon-list li i { opacity: .4; font-size: 18px;}
+.icon-list li i:hover{ opacity: 1;}
 
-.overText{position: absolute;
-    z-index: 2;
-    top: 0;
-    background: rgba(0, 0, 0, 0.2);
-    width: 100%;
-    height: 100%;
-    opacity: 1;}
-
- .overText .heading{     color: #fff;
-    font-size: 16px;
-    text-align: left;
-    margin: 10px 0;
-    line-height: 22px;
-    height: 20px;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    padding: 0 10px; }
-
- .overText .subheading{ color: #c5c5c5;
-    font-size: 13px;
-    text-align: LEFT;
-    line-height: 20px;
-    overflow: hidden;
-    padding: 0 10px;
-    margin: 0;
-    height: 80px;  }
-
- .portfolio-item:hover .overText {opacity: 0;-moz-opacity: 0;filter:alpha(opacity=0);}
-
-#about p {
-    line-height: 24px;
-    color: #dadada;
-    font-size: 14px;
+.desc {
+    background: #0000005e;
+    padding: 30px;
 }
 
-.columns.contact-details h2 { color: #DDD }
-.columns.contact-details .address{ color: #777 }
+#colorlib-hero .flexslider .flex-control-nav {
+    top: 60px;
+}
 
-#map {
-  width: 100%;
-  height: 400px;
-  background-color: grey;
+.colorlib-experience, .colorlib-skills, .colorlib-education, .colorlib-blog, .colorlib-work, .colorlib-about, .colorlib-services, .colorlib-contact {
+    padding-top: 0;
 }
